@@ -23,7 +23,8 @@ openssl genrsa -out privatekey.pem 1024
 openssl req -new -key privatekey.pem -out certrequest.csr -config c:\OpenSSL-win64\bin\openssl.cfg
 openssl x509 -req -in certrequest.csr -signkey privatekey.pem -out certificate.pem
 
-finally npm run dev.
-lucncg the url https://localhost:3000
+finally run the command 
+npm run dev
+launch the url https://localhost:3000
 
 Note:Make sure in your system mnogodb installed.
