@@ -15,11 +15,11 @@ Need to isntall package
 step 2 .
 self Generate private key and certificate
 
-1.first you need to install open ssl
+1.first you need to install openssl(https://slproweb.com/download/Win64OpenSSL_Light-1_1_0i.exe)
 
-2.go to bin folder under oppenssl folder where you install open ssl
+2.go to bin folder under oppenssl(C:\OpenSSL-Win64) and open command prompt(open command prompt from administrator) in same path
 
-3.finally run the below command(open command prompt from administrator) and you have  privatekey.pem and certificate.pem
+3.finally run the below command and you have  privatekey.pem and certificate.pem
 
 a===>openssl genrsa -out privatekey.pem 1024
 
