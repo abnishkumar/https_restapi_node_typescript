@@ -19,7 +19,7 @@ self Generate private key and certificate
 
 2.go to bin folder under oppenssl(C:\OpenSSL-Win64) and open command prompt(open command prompt from administrator) in same path
 
-3.finally run the below command and you have  privatekey.pem and certificate.pem
+3.finally run the below command and you have  privatekey.pem and certificate.pem file in the bin folder
 
 a===>openssl genrsa -out privatekey.pem 1024
 
